@@ -1,0 +1,23 @@
+body {
+    background-color: linen;
+}
+h1 {
+    color: dimgray;
+    font-family: "serif";
+    text-align: right;
+}
+p {
+    font-family: "Times New Roman";
+    text-align: justify;
+}
+a:link {
+    color: slategrey;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+ul {
+    list-style-type: circle;
+}
