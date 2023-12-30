@@ -1,10 +1,14 @@
 body {
     background-color: linen;
 }
+div {
+    margin: auto;
+    display: inline-block;
+}
 h1 {
     color: dimgray;
     font-family: "serif";
-    text-align: right;
+    text-align: left;
 }
 p {
     font-family: "Times New Roman";
