@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.27.0" theme-name="Stellar" theme-version="1.27.0">
-  <meta name="robots" content="noindex,follow">
+  
   <meta name="generator" content="Hexo 7.1.1">
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   
@@ -16,14 +16,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   
-  <title>归档 - Yt's Blog</title>
+  <title>安装Zsh以及配置小记 - Yt's Blog</title>
 
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://gear3622.github.io/archives/2024/03/index.html">
+    <meta name="description" content="安装Zsh以及配置小记这里以Ubuntu和Arch为例。 安装zsh及oh-my-zsh检查当前shell： 1echo $SHELL  列出可用shell： 1cat &#x2F;etc&#x2F;shells  如果在列表中没有zsh则需要安装； 安装zsh之前先更新： 1sudo apt update  若为Arch： 1sudo pacman -Syu  安装zsh以及git： 1sudo apt insta">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装Zsh以及配置小记">
+<meta property="og:url" content="https://gear3622.github.io/2024/03/28/%E5%AE%89%E8%A3%85Zsh%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%B0%8F%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Yt&#39;s Blog">
+<meta property="og:description" content="安装Zsh以及配置小记这里以Ubuntu和Arch为例。 安装zsh及oh-my-zsh检查当前shell： 1echo $SHELL  列出可用shell： 1cat &#x2F;etc&#x2F;shells  如果在列表中没有zsh则需要安装； 安装zsh之前先更新： 1sudo apt update  若为Arch： 1sudo pacman -Syu  安装zsh以及git： 1sudo apt insta">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-03-28T15:38:47.000Z">
+<meta property="article:modified_time" content="2024-03-28T15:39:15.092Z">
 <meta property="article:author" content="Gear3622">
 <meta name="twitter:card" content="summary">
   
@@ -44,7 +48,7 @@
 </head>
 <body>
 
-<div class="l_body s:aa index tech" id="start" layout="undefined" ><aside class="l_left"><div class="leftbar-container">
+<div class="l_body s:aa content tech" id="start" layout="post" ><aside class="l_left"><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="null" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">Yt's Blog</div></a></div></header>
@@ -56,21 +60,120 @@
 <nav class="menu dis-select"></nav>
 </div>
 <div class="widgets">
+
+
 <widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/03/28/%E5%AE%89%E8%A3%85Zsh%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%B0%8F%E8%AE%B0/"><span class="title">安装Zsh以及配置小记</span></a><a class="item title" href="/2024/03/28/Arch%E4%B8%8A%E6%89%8B%E8%AE%B0/"><span class="title">Arch上手记</span></a><a class="item title" href="/2024/03/28/hello-world/"><span class="title">Hello World</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
 
-<header class="header mobile-only"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="null" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">Yt's Blog</div></a></div></header>
-
- 
 
 
-<div class="navbar top"><nav class="post"><a href="/">近期发布</a><a class="active" href="/archives">归档</a></nav></div><div class="post-list archives"><article class="" id="archive"><div class='archive-header h4'>2024</div><div class="archive-list"><a class='post fs14' href="/2024/03/28/%E5%AE%89%E8%A3%85Zsh%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%B0%8F%E8%AE%B0/"><time>03-28</time><span>安装Zsh以及配置小记</span></a></div><div class="archive-list"><a class='post fs14' href="/2024/03/28/Arch%E4%B8%8A%E6%89%8B%E8%AE%B0/"><time>03-28</time><span>Arch上手记</span></a></div><div class="archive-list"><a class='post fs14' href="/2024/03/28/hello-world/"><time>03-28</time><span>Hello World</span></a></div></article></div>
+
+
+<div class="article banner top">
+  <div class="content">
+    <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
+<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-03-28T15:38:47.000Z">2024-03-28</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-03-28T15:39:15.092Z">2024-03-28</time></span></div></div></div>
+    
+    <div class="bottom only-title">
+      
+      <div class="text-area">
+        <h1 class="text title"><span>安装Zsh以及配置小记</span></h1>
+        
+      </div>
+    </div>
+    
+  </div>
+  </div><article class="md-text content"><h1 id="安装Zsh以及配置小记"><a href="#安装Zsh以及配置小记" class="headerlink" title="安装Zsh以及配置小记"></a>安装Zsh以及配置小记</h1><p>这里以Ubuntu和Arch为例。</p>
+<h2 id="安装zsh及oh-my-zsh"><a href="#安装zsh及oh-my-zsh" class="headerlink" title="安装zsh及oh-my-zsh"></a>安装zsh及oh-my-zsh</h2><p>检查当前shell：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $SHELL</span><br></pre></td></tr></table></figure>
+
+<p>列出可用shell：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/shells</span><br></pre></td></tr></table></figure>
+
+<p>如果在列表中没有zsh则需要安装；</p>
+<p>安装zsh之前先更新：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
+
+<p>若为Arch：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -Syu</span><br></pre></td></tr></table></figure>
+
+<p>安装zsh以及git：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install zsh git</span><br></pre></td></tr></table></figure>
+
+<p>Arch：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -S --needed zsh git</span><br></pre></td></tr></table></figure>
+
+<p>安装<code>oh-my-zsh</code>：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<p>上面的命令可能执行较慢，也可以用下面的命令代替：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)</span><br></pre></td></tr></table></figure>
+
+<p>又或者，这个网址也可以：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://install.ohmyz.sh/ -o install.sh</span><br></pre></td></tr></table></figure>
+
+<p>安装好后会自动提示是否切换shell为zsh，输y回车，就能看到</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">         __                                     __</span><br><span class="line">  ____  / /_     ____ ___  __  __   ____  _____/ /_</span><br><span class="line"> / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \</span><br><span class="line">/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /</span><br><span class="line">\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/</span><br><span class="line">                        /____/                       ....is now installed!</span><br></pre></td></tr></table></figure>
+
+<p><del>这里似乎看不到绚丽的颜色</del>控制台能看到</p>
+<h2 id="安装主题及常用插件"><a href="#安装主题及常用插件" class="headerlink" title="安装主题及常用插件"></a>安装主题及常用插件</h2><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>个人感觉默认主题和内置的<code>ys</code>主题就不错，这里再介绍一个更加绚烂的主题：<code>powerlevel10k</code>。先下载：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $&#123;ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom&#125;/themes/powerlevel10k</span><br></pre></td></tr></table></figure>
+
+<p>然后在<code>~/.zshrc</code>文件中找到<code>ZSH_THEME=&quot;&quot;</code>一行，改成</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</span><br></pre></td></tr></table></figure>
+
+<p>然后执行</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure>
+
+<p>即可。</p>
+<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><h4 id="zsh-syntax-highlighting"><a href="#zsh-syntax-highlighting" class="headerlink" title="zsh-syntax-highlighting"></a>zsh-syntax-highlighting</h4><p>作为一个合格的命令行怎么能没有语法高亮！这个插件当你输入正确的命令时高亮显示绿色，不正确时显示红色。</p>
+<p>下载：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;/plugins/zsh-syntax-highlighting</span><br></pre></td></tr></table></figure>
+
+<p>应用：在<code>~/.zshrc</code>文件中找到<code>plugins</code>一行（默认的有git），在括号内添加<code>zsh-syntax-highlighting</code>：</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">plugins=(</span><br><span class="line">    git # 原有的</span><br><span class="line">    zsh-<span class="keyword">syntax</span>-highlighting # 现在新增的</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>并执行<code>source ~/.zshrc</code>即可。</p>
+<h4 id="zsh-autosuggestions"><a href="#zsh-autosuggestions" class="headerlink" title="zsh-autosuggestions"></a>zsh-autosuggestions</h4><p>这个插件会在你输入一部分命令时根据你输入的历史猜测你接下来想要输入的命令（有点像powershell的功能）。</p>
+<p>下载：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/zsh-users/zsh-autosuggestions $&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;/plugins/zsh-autosuggestions</span><br></pre></td></tr></table></figure>
+
+<p>应用：同上：</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">plugins=(</span><br><span class="line">    git</span><br><span class="line">    zsh-<span class="keyword">syntax</span>-highlighting</span><br><span class="line">    zsh-autosuggestions</span><br><span class="line">)</span><br><span class="line"># 再执行 $ <span class="keyword">source</span> ~/.zshrc</span><br></pre></td></tr></table></figure>
+
+<h4 id="z"><a href="#z" class="headerlink" title="z"></a>z</h4><p>z的功能是记忆你最近跳转过的长目录，这样再次跳转时只需要执行<code>z+&lt;最后一级文件夹名&gt;</code>就可以自动跳转。类似<code>j</code>命令。</p>
+<p><code>z</code>是内置插件，也即无需安装，在<code>plugins</code>里面添加并应用即可。</p>
+<p>注：参考<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/441676276">zsh 安装与配置：9步打造高效命令行 - 知乎 (zhihu.com)</a></p>
+
+<div class="article-footer fs14">
+    <section id="license">
+      <div class="header"><span>许可协议</span></div>
+      <div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+</div>
+    </section>
+    </div>
+</article>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2024/03/28/Arch%E4%B8%8A%E6%89%8B%E8%AE%B0/">Arch上手记</a></div></section></div>
+
+
+
+
+
+
 <footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">Gear3622</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.27.0">Stellar 1.27.0</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
-</aside><div class='float-panel blur'>
+<div class="widgets">
+
+
+
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Zsh%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%B0%8F%E8%AE%B0"><span class="toc-text">安装Zsh以及配置小记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85zsh%E5%8F%8Aoh-my-zsh"><span class="toc-text">安装zsh及oh-my-zsh</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6"><span class="toc-text">安装主题及常用插件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98"><span class="toc-text">主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%92%E4%BB%B6"><span class="toc-text">插件</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#zsh-syntax-highlighting"><span class="toc-text">zsh-syntax-highlighting</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#zsh-autosuggestions"><span class="toc-text">zsh-autosuggestions</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#z"><span class="toc-text">z</span></a></li></ol></li></ol></li></ol></li></ol></div><div class="widget-footer">
+
+<a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/></g></svg><span>回到顶部</span></a></div></widget>
+</div></aside><div class='float-panel blur'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
   </button>
